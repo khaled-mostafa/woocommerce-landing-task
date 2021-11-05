@@ -1,0 +1,28 @@
+/*=============== SERVICES ===============*/
+.services{
+    &__container{
+        padding-top: 1rem;
+    }
+
+    &__data:nth-child(2) {
+        top: 2rem;
+    }
+
+    &__data:nth-child(3) {
+        top: 4rem;
+    }
+
+    &__data{
+        display: grid;
+        row-gap: 1rem;
+        padding: 2rem 1.5rem;
+        border-radius: 1rem;
+        text-align: center;
+        position: relative;
+    }
+    &__img{
+        width: 135px;
+        justify-self: center;
+        margin-bottom: var(--mb-0-5);
+    }
+}
